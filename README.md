@@ -6,16 +6,15 @@
 - **Language**: SAS  
 - **Instructor**: Dr. Qifan Song (qfsong@purdue.edu)
 
+
 ## Course Description
 
-This course introduces intermediate-level statistical modeling and inference techniques commonly used in data analysis across scientific, engineering, and public health domains. Emphasis is placed on both theoretical foundations and practical applications, with implementation in R and SAS. Students will develop a strong foundation in regression modeling, diagnostic methods, and model selection strategies. Topics include:
+This course introduces the mathematical modeling, statistical foundations, and diagnostics of regression and variance analysis methods. Students will learn both conceptual understanding and applied skills in fitting and interpreting statistical models, with a focus on proper inference and interpretation of real-world problems using SAS. Topics include:
 
-- Simple and multiple linear regression
-- Matrix formulation of linear models
-- Least squares estimation and inference
-- ANOVA and ANCOVA
-- Categorical predictors and interaction terms
-- Model diagnostics and multicollinearity
-- Influence diagnostics and residual analysis
-- Transformations and weighted least squares
-- Model selection methods: AIC, adjusted \(R^2\), Mallow’s \(C_p\)
+- Simple linear regression  
+- Multiple linear regression  
+- Analysis of variance (ANOVA)  
+- Possibly logistic regression  
+- Parameter estimation and hypothesis testing  
+- Confidence intervals and prediction  
+- Model diagnostics and interpretation  
