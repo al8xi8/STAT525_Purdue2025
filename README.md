@@ -3,7 +3,7 @@
 ## Course Overview
 
 - **Term**: Fall 2025  
-- **Language**: R and SAS  
+- **Language**: SAS  
 - **Instructor**: Dr. Qifan Song (qfsong@purdue.edu)
 
 ## Course Description
