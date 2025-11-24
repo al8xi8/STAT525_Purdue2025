@@ -1,7 +1,7 @@
 ################################################################################
 # STAT 525
 # Script: recode.R
-# Purpose: Recode NHIS variables
+# Purpose: Recode Variables
 # Author: Alexandra Y. Chang
 ################################################################################
 
