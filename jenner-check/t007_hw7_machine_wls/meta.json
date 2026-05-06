@@ -1,0 +1,8 @@
+{
+    "bundle": "t007_hw7_machine_wls",
+    "source_file": "codes/STAT525_HW7_AlexandraChang.sas",
+    "source_blob_sha": "e18eaf7365ff2e3f21139da815892343fea1fa66",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW7 verbatim — OLS vs WLS on machine-speed defectives data: residual variance modeled as a function of X, weights = 1/sigma^2, iterated WLS, and OLS on the W^{1/2}-transformed system. Includes PROC SQL summary and ODS OUTPUT capture. All DATALINES inline."
+}

@@ -1,0 +1,8 @@
+{
+    "bundle": "t002_hw2_hardness_ci_pi",
+    "source_file": "codes/STAT525_HW2_AlexandraChang.sas",
+    "source_blob_sha": "21628eef27214c9153f1bb4b0452ea84a3ecbaa7",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW2 verbatim — Z-test for hardness using PROC REG; CLM/CLI confidence + prediction intervals; Working-Hotelling joint band via FINV; residual SGPLOTs; F-stat from R^2. All DATALINES inline."
+}

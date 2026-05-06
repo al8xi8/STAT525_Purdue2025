@@ -1,0 +1,95 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA hardness
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote hardness (16 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=hardness
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA hardness
+
+NOTE: Processing inline DATALINES (17 lines)
+
+NOTE: Read 17 rows from DATALINES.
+NOTE: Wrote hardness (17 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=hardness
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset outdata written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA outdata_wh
+
+
+NOTE: Read 17 rows from outdata.
+NOTE: Wrote outdata_wh (17 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=outdata_wh
+
+NOTE: PROC PRINT completed: 17 observations printed, 4 variables
+NOTE: DATA hardness
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote hardness (16 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=hardness
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset outreg written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: PROC MEANS
+NOTE: Output dataset meanout has 1 observations and 3 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA outreg2
+
+
+NOTE: Read 16 rows from outreg.
+NOTE: Wrote outreg2 (16 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SGPLOT data=outreg2
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=outreg2
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=hardness
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: DATA prob7
+
+
+NOTE: Wrote prob7 (1 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=prob7
+
+NOTE: PROC PRINT completed: 1 observations printed, 3 variables

@@ -1,0 +1,243 @@
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       195.60312     97.80156   1488.73    <.0001
+b                2       119.33010     59.66505    908.22    <.0001
+a:b              4        28.07072      7.01768    106.82    <.0001
+Error           24         1.57667      0.06569                    
+
+Root MSE           0.25631    R-Square            0.9954
+Adj R-Sq            0.9939
+
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       195.60312     97.80156     92.37    <.0001
+b                2       119.33010     59.66505     56.35    <.0001
+Error           28        29.64739      1.05884                    
+
+Root MSE           1.02900    R-Square            0.9140
+Adj R-Sq            0.9017
+
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       195.60312     97.80156   1488.73    <.0001
+b                2       119.33010     59.66505    908.22    <.0001
+a:b              4        28.07072      7.01768    106.82    <.0001
+Error           24         1.57667      0.06569                    
+
+Root MSE           0.25631    R-Square            0.9954
+Adj R-Sq            0.9939
+
+23.7(e) - Scheffé 90% Confidence Intervals for L1–L6                           1
+
+         L1        L1_LOW       L1_HIGH      L2        L2_LOW       L2_HIGH      L3        L3_LOW       L3_HIGH           L4        L4_LOW       L4_HIGH           L5        L5_LOW       L5_HIGH     L6        L6_LOW       L6_HIGH
+2.054166667  1.4622007738  2.6461325602  3.5625  2.9705341068  4.1544658932  5.7875  5.1955341068  6.3794658932  1.508333333  0.6711671383  2.3454995277  3.733333333  2.8961671383  4.5704995277  2.225  1.3878338053  3.0621661947
+
+23.7(e) - Scheffé 90% Confidence Intervals for L1–L6                           1
+
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       220.02000    110.01000   1827.86    <.0001
+b                2       123.66000     61.83000   1027.33    <.0001
+a:b              4        29.42500      7.35625    122.23    <.0001
+Error           27         1.62500      0.06019                    
+
+Root MSE           0.24533    R-Square            0.9957
+Adj R-Sq            0.9944
+
+23.7(e) - Scheffé 90% Confidence Intervals for L1–L6                           1
+
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       220.02000    110.01000    109.83    <.0001
+b                2       123.66000     61.83000     61.73    <.0001
+Error           31        31.05000      1.00161                    
+
+Root MSE           1.00081    R-Square            0.9171
+Adj R-Sq            0.9064
+
+23.12(a) - Bonferroni 90% Family Confidence Intervals for L1 and L2            1
+
+    L1         L1_LOW        L1_HIGH      L2         L2_LOW        L2_HIGH
+-1.575  -2.0855185656  -1.0644814344  -5.175  -5.6855185656  -4.6644814344
+
+23.12(a) - Bonferroni 90% Family Confidence Intervals for L1 and L2            1
+
+                         The GLM Procedure                         
+                       Dependent Variable: y                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+a                2       206.48344    103.24172     73.05    <.0001
+b                2       120.66187     60.33094     42.69    <.0001
+a:b              3        31.86938     10.62312      7.52    0.0010
+Error           24        33.91750      1.41323                    
+
+Root MSE           1.18879    R-Square            0.9137
+Adj R-Sq            0.8885
+
+                        Estimate Results                         
+
+Label                Estimate  Standard Error   t Value  Pr > |t|
+-------------------  --------  --------------  --------  --------
+Test 1: mu12 = mu13                                              
+Test 2: mu32 = mu33   0.00000                                    
+
+23.12(a) - Bonferroni 90% Family Confidence Intervals for L1 and L2            1
+
+                         The GLM Procedure                          
+                      Dependent Variable: time                      
+
+Source          DF  Sum of Squares   Mean Square   F Value    Pr > F
+--------  --------  --------------  ------------  --------  --------
+a                1    540360.60000  540360.60000    629.76    <.0001
+b                2     49319.63333   24659.81667     28.74    <.0001
+c                1    382401.66667  382401.66667    445.67    <.0001
+a:b              2       542.50000     271.25000      0.32    0.7305
+a:c              1        91.26667      91.26667      0.11    0.7457
+b:c              2       911.23333     455.61667      0.53    0.5914
+a:b:c            2        19.03333       9.51667      0.01    0.9890
+Error           48     41186.00000     858.04167                    
+
+Root MSE          29.29235    R-Square            0.9594
+Adj R-Sq            0.9501
+
+24.14(d) - Residuals and Fitted Values (First 5 Obs)                           1
+
+  Obs  TIME  FITTED  RESID  A  B  C
+    1  1250  1218.6   31.4  1  1  1
+    2  1175  1218.6  -43.6  1  1  1
+    3  1236  1218.6   17.4  1  1  1
+    4  1239  1218.6   20.4  1  1  1
+    5  1193  1218.6  -25.6  1  1  1
+
+... 55 more observations (showing 5 of 60)
+
+24.14(d) - Residuals and Fitted Values (First 5 Obs)                           1
+
+24.14(d) - Residuals and Fitted Values (First 5 Obs)                           1
+
+                    The CORR Procedure
+                        2 Variables:    resid   zscore
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+resid           60  -0.00000  26.42097  -0.00000  -55.00000  50.60000
+zscore          60  -0.00120   0.98037  -0.07201   -2.31256   2.08198
+   Pearson Correlation Coefficients, N = 60
+          Prob > |r| under H0: Rho=0
+               resid    zscore
+--------  --------  --------
+resid      1.00000   0.99260
+              .       <.0001
+zscore     0.99260   1.00000
+            <.0001      .
+24.14(e) - Normal Probability Plot of Residuals                                1
+
+                            The UNIVARIATE Procedure
+                                Variable:  RESID
+
+                                    Moments
+
+N                                 60    Sum Weights                       60
+Mean                       -0.000000    Sum Observations           -0.000000
+Std Deviation              26.420973    Variance                  698.067797
+Skewness                    0.080422    Kurtosis                   -0.825545
+Uncorrected SS          41186.000000    Corrected SS            41186.000000
+Coeff Variation                    .    Std Error Mean              3.410933
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean       -0.000000  Std Deviation   26.420973
+Median      0.100000  Variance       698.067797
+Mode      -34.400000  Range          105.600000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      -55.000000
+1%          -55.000000
+5%          -42.960000
+10%         -34.280000
+25% Q1      -23.050000
+50% Median    0.100000
+75% Q3       20.050000
+90%          38.920000
+95%          47.840000
+99%          50.600000
+100% Max     50.600000
+
+          Extreme Observations           
+
+Lowest                Highest            
+--------  ----------  --------  ---------
+Value     -55.000000  Value     40.600000
+Value     -43.600000  Value     44.800000
+Value     -43.400000  Value     48.000000
+Value     -34.600000  Value     50.600000
+Value     -34.400000  Value     50.600000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.976779289  0.307854576
+Kolmogorov-Smirnov  0.092476107  0.649774056
+Anderson-Darling    0.38483821      0.15
+Cramer-von Mises    0.057144768  0.833828418
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t                -0         1
+Sign                        0         1
+Signed Rank               -27  0.920835144
+
+24.14(e) - Normal Probability Plot of Residuals                                1
+
+24.14(e) - Normal Probability Plot of Residuals                                1
+
+                         The GLM Procedure                          
+                      Dependent Variable: time                      
+
+Source          DF  Sum of Squares   Mean Square   F Value    Pr > F
+--------  --------  --------------  ------------  --------  --------
+a                1    540360.60000  540360.60000    629.76    <.0001
+b                2     49319.63333   24659.81667     28.74    <.0001
+c                1    382401.66667  382401.66667    445.67    <.0001
+a:b              2       542.50000     271.25000      0.32    0.7305
+a:c              1        91.26667      91.26667      0.11    0.7457
+b:c              2       911.23333     455.61667      0.53    0.5914
+a:b:c            2        19.03333       9.51667      0.01    0.9890
+Error           48     41186.00000     858.04167                    
+
+Root MSE          29.29235    R-Square            0.9594
+Adj R-Sq            0.9501
+

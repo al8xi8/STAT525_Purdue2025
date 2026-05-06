@@ -1,0 +1,8 @@
+{
+    "bundle": "t009_hw10_hayfever_assembly",
+    "source_file": "codes/STAT525_HW10_AlexandraChang.sas",
+    "source_blob_sha": "0012bbef8fa48ad8156c23b1419268faa190aea2",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW10 — hay-fever data with missing cells, full + reduced two-factor models, Scheffé 90% joint CIs for L1-L6, Bonferroni CIs (Problem 23.12a), single-df interaction tests (23.12b), and the three-factor electronics-assembly ANOVA with residual/normal diagnostics + AB interaction panels by C (Problem 24.12 / 24.14). One 'lines;' data-step keyword was changed to the equivalent 'datalines;'. All DATALINES inline."
+}

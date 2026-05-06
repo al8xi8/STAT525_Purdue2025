@@ -1,0 +1,94 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA enzyme
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote enzyme (12 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA enzyme2
+
+
+NOTE: Read 12 rows from enzyme.
+NOTE: Wrote enzyme2 (12 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=enzyme2
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset reg_out written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA reg_out2
+
+
+NOTE: Read 12 rows from reg_out.
+NOTE: Wrote reg_out2 (12 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA typos
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote typos (12 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=typos
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA predict
+
+NOTE: Processing inline DATALINES (1 lines)
+
+NOTE: Read 1 rows from DATALINES.
+NOTE: Wrote predict (1 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA all
+
+
+NOTE: Read 12 rows from typos.
+NOTE: Read 13 rows from predict.
+NOTE: Wrote all (13 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=all
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset pred_out written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA brand_pref
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote brand_pref (16 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=brand_pref
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.

@@ -1,0 +1,8 @@
+{
+    "bundle": "t005_hw5_steroid_copier",
+    "source_file": "codes/STAT525_HW5_AlexandraChang.sas",
+    "source_blob_sha": "8fc9d057afae29a2f012a97d38842f49892d37fa",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW5 — Q5 quadratic steroid regression with Working-Hotelling 99% joint CIs (FINV-based) and Q6 copier-service regression with interaction term. Q1 (satisfaction dataset) and Q2/Q3 (placeholder datalines) were not includable; bundle keeps the two questions whose data is inline."
+}

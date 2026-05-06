@@ -1,0 +1,223 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LINESIZE changed to 80.
+NOTE: Option LINESIZE changed to 80.
+NOTE: DATA machinespeed
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote machinespeed (12 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=machinespeed
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset residdata written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: PROC PRINT data=residdata
+
+NOTE: PROC PRINT completed: 12 observations printed, 4 variables
+NOTE: NOTE: SYMBOL1 statement processed (INTERPOL=NONE, VALUE=CIRCLE).
+NOTE: PROC GPLOT data=residdata
+
+NOTE: ODS plot written: gplot_basic.spec.json
+NOTE: DATA resid_sqr
+
+
+NOTE: Read 12 rows from residdata.
+NOTE: Wrote resid_sqr (12 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: NOTE: SYMBOL1 statement processed (INTERPOL=NONE, VALUE=CIRCLE).
+NOTE: PROC GPLOT data=resid_sqr
+
+NOTE: ODS plot written: gplot_basic.spec.json
+NOTE: PROC REG data=resid_sqr
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset varfit written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA wts
+
+
+NOTE: Read 12 rows from varfit.
+NOTE: Wrote wts (12 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=wts
+
+NOTE: PROC PRINT completed: 12 observations printed, 6 variables
+NOTE: ODS OUTPUT: PARAMETERESTIMATES -> ols_pe
+NOTE: PROC REG data=machinespeed
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: ODS OUTPUT: PARAMETERESTIMATES -> wls_pe
+NOTE: PROC REG data=wts
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset wlsout written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA ols_pe
+
+
+NOTE: Read 2 rows from ols_pe.
+NOTE: Wrote ols_pe (2 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA wls_pe
+
+
+NOTE: Read 2 rows from wls_pe.
+NOTE: Wrote wls_pe (2 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA compare
+
+
+NOTE: Read 2 rows from ols_pe.
+NOTE: Read 4 rows from wls_pe.
+NOTE: Wrote compare (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=compare
+
+NOTE: PROC PRINT completed: 4 observations printed, 6 variables
+NOTE: DATA ols_results
+
+NOTE: Processing inline DATALINES (1 lines)
+
+NOTE: Read 1 rows from DATALINES.
+NOTE: Wrote ols_results (1 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA wls_results
+
+NOTE: Processing inline DATALINES (1 lines)
+
+NOTE: Read 1 rows from DATALINES.
+NOTE: Wrote wls_results (1 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA compare_SE
+
+
+NOTE: Read 1 rows from ols_results.
+NOTE: Read 2 rows from wls_results.
+NOTE: Wrote compare_SE (2 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table se_change created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE changed to Comparison of Standard Errors (OLS vs WLS).
+NOTE: PROC PRINT data=se_change
+
+NOTE: PROC PRINT completed: 1 observations printed, 6 variables
+NOTE: DATA iter1
+
+
+NOTE: Read 12 rows from wlsout.
+NOTE: Wrote iter1 (12 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=iter1
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset iter_varfit written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA iter_wts
+
+
+NOTE: Read 12 rows from iter_varfit.
+NOTE: Wrote iter_wts (12 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=iter_wts
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: ODS OUTPUT: PARAMETERESTIMATES -> wls_pe
+NOTE: PROC REG data=wts
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: ODS plot written: reg_fitplot.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA trans
+
+
+NOTE: Read 12 rows from wts.
+NOTE: Wrote trans (12 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: ODS OUTPUT: PARAMETERESTIMATES -> trans_pe
+NOTE: PROC REG data=trans
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA wls_pe
+
+
+NOTE: Read 2 rows from wls_pe.
+NOTE: Wrote wls_pe (2 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA trans_pe
+
+
+NOTE: Read 2 rows from trans_pe.
+NOTE: Wrote trans_pe (2 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA compare_1116
+
+
+NOTE: Read 2 rows from wls_pe.
+NOTE: Read 4 rows from trans_pe.
+NOTE: Wrote compare_1116 (4 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=compare_1116
+
+NOTE: PROC PRINT completed: 4 observations printed, 3 variables

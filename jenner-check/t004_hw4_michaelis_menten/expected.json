@@ -1,0 +1,15 @@
+{
+    "_captured_at": "2026-05-06T08:17:19Z",
+    "_captured_run_id": "r_019dfc5c76bd75d190fdcbea6dc3471d",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote enzyme (12 rows, 2 columns).",
+        "NOTE: Wrote typos (12 rows, 2 columns).",
+        "NOTE: Wrote brand_pref (16 rows, 3 columns).",
+        "NOTE: PROC REG data=enzyme2",
+        "NOTE: PROC REG data=brand_pref"
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

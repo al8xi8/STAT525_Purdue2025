@@ -1,0 +1,15 @@
+{
+    "_captured_at": "2026-05-06T09:17:46Z",
+    "_captured_run_id": "r_019dfc8fdce47f31a1684d559f5304fe",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote machinespeed (12 rows, 2 columns).",
+        "NOTE: PROC REG data=machinespeed",
+        "NOTE: PROC SQL ",
+        "NOTE: Table se_change created.",
+        "NOTE: PROC PRINT completed: 4 observations printed, 3 variables"
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

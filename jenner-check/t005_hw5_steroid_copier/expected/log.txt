@@ -1,0 +1,88 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LINESIZE changed to 72.
+NOTE: DATA steroid
+
+NOTE: Processing inline DATALINES (27 lines)
+
+NOTE: Read 27 rows from DATALINES.
+NOTE: Wrote steroid (27 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=steroid
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: PROC SGPLOT data=steroid
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: DATA new
+
+NOTE: Processing inline DATALINES (3 lines)
+
+NOTE: Read 3 rows from DATALINES.
+NOTE: Wrote new (3 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA all
+
+
+NOTE: Read 27 rows from steroid.
+NOTE: Read 30 rows from new.
+NOTE: Wrote all (30 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=all
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset ci_out written.
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA joint_CI
+
+
+NOTE: Read 30 rows from ci_out.
+NOTE: Wrote joint_CI (3 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=joint_CI
+
+NOTE: PROC PRINT completed: 3 observations printed, 5 variables
+NOTE: DATA copier
+
+NOTE: Processing inline DATALINES (45 lines)
+
+NOTE: Read 45 rows from DATALINES.
+NOTE: Wrote copier (45 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=copier
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: DATA copier2
+
+
+NOTE: Read 45 rows from copier.
+NOTE: Wrote copier2 (45 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=copier2
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_diagnostics.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.

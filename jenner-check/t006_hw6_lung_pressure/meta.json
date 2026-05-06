@@ -1,0 +1,8 @@
+{
+    "bundle": "t006_hw6_lung_pressure",
+    "source_file": "codes/STAT525_HW6_AlexandraChang.sas",
+    "source_blob_sha": "52a082b92eeddc865a841e6198819ed4a8abd9b7",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW6 — KNNL 9.13 (lung-pressure boxplots/correlation/first-order regression), 9.14 (centered second-order all-subsets selection by adjusted R^2), 9.23 (PRESS), and 10.20 (a-c residual/fitted plots, normal probability plot, VIF). DATALINES inline. The 10.20 d-f influence-diagnostic blocks (rstudent/cookd/dfbetas) were omitted from this bundle."
+}

@@ -1,0 +1,16 @@
+{
+    "_captured_at": "2026-05-06T08:23:14Z",
+    "_captured_run_id": "r_019dfc619abe7f03910b8f86b27307b8",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote lungpressure (19 rows, 4 columns).",
+        "NOTE: PROC CORR data=lungpressure",
+        "NOTE: PROC REG data=lungpressure",
+        "NOTE: Wrote lungpressure_centered (19 rows, 12 columns).",
+        "NOTE: Wrote lungpressure2 (19 rows, 18 columns).",
+        "NOTE: OUTEST dataset sumstats written with 1 observations."
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
