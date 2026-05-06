@@ -1,0 +1,8 @@
+{
+    "bundle": "t001_hw1_hardness_reg",
+    "source_file": "codes/STAT525_HW1_AlexandraChang.sas",
+    "source_blob_sha": "fdda765e6e0e33807b6ffbcd2d4a31afe0a8e3e7",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW1 verbatim — DATA step + PROC REG with CLB/P/R options, OUTPUT and ID statements. Hardness vs. time linear regression (Toluca-style). DATALINES inline; no edits needed."
+}

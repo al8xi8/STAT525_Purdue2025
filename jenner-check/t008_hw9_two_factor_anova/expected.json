@@ -1,0 +1,15 @@
+{
+    "_captured_at": "2026-05-06T09:17:46Z",
+    "_captured_run_id": "r_019dfc924b077d438780eb8b6d3b223a",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote twofactor (8 rows, 3 columns).",
+        "NOTE: Wrote hay (36 rows, 4 columns).",
+        "NOTE: Wrote terminal (8 rows, 3 columns).",
+        "NOTE: PROC GLM data=hay",
+        "Kimball family-wise alpha upper bound ="
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,14 @@
+{
+    "_captured_at": "2026-05-06T08:18:26Z",
+    "_captured_run_id": "r_019dfc5d6e887fa1bbf1daa9837e6636",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote steroid (27 rows, 3 columns).",
+        "NOTE: Wrote copier (45 rows, 3 columns).",
+        "NOTE: PROC PRINT completed: 3 observations printed, 5 variables",
+        "NOTE: PROC REG data=copier2"
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

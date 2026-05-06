@@ -1,0 +1,8 @@
+{
+    "bundle": "t008_hw9_two_factor_anova",
+    "source_file": "codes/STAT525_HW9_AlexandraChang.sas",
+    "source_blob_sha": "14bfa46bd6b20990d0ffc0a914a57e0077b281ff",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW9 — two-factor 2x4 ANOVA (Q1), hay-fever relief 3x3 ANOVA with residual diagnostics + Kimball bound (Q2), and Tukey-additivity test on the terminal data (Q6). DATALINES inline. Kept the 'means A B' marginal-mean lines and dropped the 'means A B A*B' cross-term means and the Q5 tile-strength PROC GLM blocks from this bundle."
+}

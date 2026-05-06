@@ -1,0 +1,194 @@
+                                                  The MEANS Procedure
+
+ Variable                 Mean            Std Dev           Variance            Minimum            Maximum             Median     Lower Quartile     Upper Quartile
+ ------------------------------------------------------------------------------------------------------------------------------------------------------
+ CRIME_RATE     7111.2023810     2571.2406352     6611278.4043316     2105.0000000     14016.0000000     6930.5000000     5003.5000000     8904.5000000
+ ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: crime_rate                                             
+
+Source                 DF   Sum of Squares     Mean Square   F Value    Pr > F
+---------------  --------  ---------------  --------------  --------  --------
+Model                   1   93462942.26699  93462942.26699     16.83    <.0001
+Error                  82  455273165.29253   5552111.77186                    
+Corrected Total        83  548736107.55952                                    
+
+Root MSE        2356.29195    R-Square            0.1703
+Dependent Mean    7111.20238    Adj R-Sq            0.1602
+Coeff Var         33.13493
+
+                           Parameter Estimates                           
+
+Variable              DF     Estimate  Standard Error   t Value  Pr > |t|
+--------------  --------  -----------  --------------  --------  --------
+Intercept              1  20517.59995      3277.64269      6.26    <.0001
+hs_diploma_pct         1   -170.57519        41.57433     -4.10    <.0001
+
+                                               Distribution of Residuals                                                
+
+                                                The UNIVARIATE Procedure
+                                            Variable:  residuals  (Residual)
+
+                                                        Moments
+
+N                                 84    Sum Weights                       84
+Mean                       -0.000000    Sum Observations           -0.000001
+Std Deviation            2342.054410    Variance              5485218.858998
+Skewness                    0.366447    Kurtosis                   -0.291119
+Uncorrected SS        455273165.296807    Corrected SS          455273165.296807
+Coeff Variation       19673304970077.503906    Std Error Mean            255.539086
+
+             Basic Statistical Measures              
+
+Location                Variability                  
+--------  ------------  -------------  --------------
+Mean         -0.000000  Std Deviation     2342.054410
+Median     -210.473958  Variance       5485218.858998
+Mode      -5278.310420  Range            12081.575189
+
+Quantiles (Definition 5)
+
+Quantile        Estimate
+----------  ------------
+0% Min      -5278.310420
+1%          -5278.310420
+5%          -3234.334854
+10%         -2948.660043
+25% Q1      -1829.091434
+50% Median   -210.473958
+75% Q3       1624.134131
+90%          3143.127551
+95%          4010.572103
+99%          6803.264769
+100% Max     6803.264769
+
+            Extreme Observations             
+
+Lowest                  Highest              
+--------  ------------  --------  -----------
+Value     -5278.310420  Value     3995.140712
+Value     -3285.062306  Value     4015.715900
+Value     -3268.009665  Value     4215.415146
+Value     -3237.160043  Value     4623.565523
+Value     -3225.859288  Value     6803.264769
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t                -0         1
+Sign                       -2  0.743420835
+Signed Rank              -104  0.816609241
+
+                                               Distribution of Residuals                                                
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: crime_rate                                             
+
+Source                 DF   Sum of Squares     Mean Square   F Value    Pr > F
+---------------  --------  ---------------  --------------  --------  --------
+Model                   1   87518840.89074  87518840.89074     14.33    0.0003
+Error                  82  500804428.00211   6107371.07320                    
+Corrected Total        83  588323268.89286                                    
+
+Root MSE        2471.30959    R-Square            0.1488
+Dependent Mean    7029.96429    Adj R-Sq            0.1384
+Coeff Var         35.15394
+
+                           Parameter Estimates                           
+
+Variable              DF     Estimate  Standard Error   t Value  Pr > |t|
+--------------  --------  -----------  --------------  --------  --------
+Intercept              1  20003.04584      3437.63420      5.82    <.0001
+hs_diploma_pct         1   -165.06193        43.60369     -3.79    0.0003
+
+                                               Distribution of Residuals                                                
+
+                                         Distribution of Residuals (with Typo)                                          
+
+                                                The UNIVARIATE Procedure
+                                            Variable:  residuals  (Residual)
+
+                                                        Moments
+
+N                                 84    Sum Weights                       84
+Mean                       -0.000000    Sum Observations           -0.000002
+Std Deviation            2456.377066    Variance              6033788.288947
+Skewness                    0.159073    Kurtosis                   -0.018137
+Uncorrected SS        500804427.982571    Corrected SS          500804427.982571
+Coeff Variation       10316798949525.121094    Std Error Mean            268.012710
+
+             Basic Statistical Measures              
+
+Location                Variability                  
+--------  ------------  -------------  --------------
+Mean         -0.000000  Std Deviation     2456.377066
+Median     -318.343863  Variance       6033788.288947
+Mode      -6700.339290  Range            13588.123856
+
+Quantiles (Definition 5)
+
+Quantile        Estimate
+----------  ------------
+0% Min      -6700.339290
+1%          -6700.339290
+5%          -3166.390310
+10%         -2985.215434
+25% Q1      -2039.896645
+50% Median   -318.343863
+75% Q3       1690.735834
+90%          3219.377459
+95%          4063.390655
+99%          6887.784566
+100% Max     6887.784566
+
+            Extreme Observations             
+
+Lowest                  Highest              
+--------  ------------  --------  -----------
+Value     -6700.339290  Value     4052.094208
+Value     -5188.277362  Value     4067.156137
+Value     -3200.029649  Value     4288.908423
+Value     -3168.905792  Value     4686.032280
+Value     -3158.843863  Value     6887.784566
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t                -0         1
+Sign                       -2  0.743420835
+Signed Rank               -44  0.921840782
+
+                                         Distribution of Residuals (with Typo)                                          
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: sqrt_sales                                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1        95.56833     95.56833    728.37    <.0001
+Error                   8         1.04967      0.13121                    
+Corrected Total         9        96.61800                                 
+
+Root MSE           0.36223    R-Square            0.9891
+Dependent Mean      15.10424    Adj R-Sq            0.9878
+Coeff Var          2.39818
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  10.26093         0.21290     48.20    <.0001
+time              1   1.07629         0.03988     26.99    <.0001
+

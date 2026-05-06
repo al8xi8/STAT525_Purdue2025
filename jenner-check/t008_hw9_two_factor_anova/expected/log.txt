@@ -1,0 +1,130 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA twofactor
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote twofactor (8 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset plotdata has 15 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: NOTE: SYMBOL1 statement processed (INTERPOL=JOIN, VALUE=CIRCLE).
+NOTE: NOTE: SYMBOL2 statement processed (INTERPOL=JOIN, VALUE=SQUARE).
+NOTE: PROC GPLOT data=plotdata
+
+NOTE: ODS plot written: gplot_basic.spec.json
+NOTE: PROC GLM data=twofactor
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: 3: In qt(1 - model_alpha/2, model$df.residual) : NaNs produced
+NOTE: 4: In anova.lm(model) :
+NOTE:   ANOVA F-tests on an essentially perfect fit are unreliable
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: DATA logtf
+
+
+NOTE: Read 8 rows from twofactor.
+NOTE: Wrote logtf (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset plotlog has 15 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC GPLOT data=plotlog
+
+NOTE: ODS plot written: gplot_basic.spec.json
+NOTE: PROC GLM data=logtf
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: 3: In qt(1 - model_alpha/2, model$df.residual) : NaNs produced
+NOTE: 4: In anova.lm(model) :
+NOTE:   ANOVA F-tests on an essentially perfect fit are unreliable
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: DATA hay
+
+NOTE: Processing inline DATALINES (36 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote hay (36 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=hay
+
+NOTE: OUTPUT dataset written to: ./work/fitout.avro
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: PROC PRINT data=fitout
+
+NOTE: PROC PRINT completed: 36 observations printed, 6 variables
+NOTE: NOTE: SYMBOL1 statement processed (INTERPOL=NONE, VALUE=CIRCLE).
+NOTE: PROC GPLOT data=fitout
+
+NOTE: ODS plot written: gplot_basic.spec.json
+NOTE: PROC UNIVARIATE
+NOTE: PROC GLM data=hay
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: DATA kimball
+
+Kimball family-wise alpha upper bound = 0.1426250000000001
+
+NOTE: Wrote kimball (1 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA tiles
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote tiles (20 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA terminal
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote terminal (8 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=terminal
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: 3: In qt(1 - model_alpha/2, model$df.residual) : NaNs produced
+NOTE: 4: In anova.lm(model) :
+NOTE:   ANOVA F-tests on an essentially perfect fit are unreliable
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.

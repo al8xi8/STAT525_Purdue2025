@@ -1,0 +1,248 @@
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: y                              
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      2812.50000   2812.50000     12.14    0.0059
+Error                  10      2316.50000    231.65000                    
+Corrected Total        11      5129.00000                                 
+
+Root MSE          15.22005    R-Square            0.5484
+Dependent Mean      50.50000    Adj R-Sq            0.5032
+Coeff Var         30.13872
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -5.75000        16.73052     -0.34    0.7382
+x                 1   0.18750         0.05381      3.48    0.0059
+
+Observed, Predicted, and Residual Values
+
+  Obs    X   Y  PREDICTED  RESIDUAL
+    1  200  28      31.75     -3.75
+    2  400  75      69.25      5.75
+    3  300  37       50.5     -13.5
+    4  400  53      69.25    -16.25
+    5  200  22      31.75     -9.75
+    6  300  58       50.5       7.5
+    7  300  40       50.5     -10.5
+    8  400  96      69.25     26.75
+    9  200  46      31.75     14.25
+   10  400  52      69.25    -17.25
+   11  200  30      31.75     -1.75
+   12  300  69       50.5      18.5
+
+Observed, Predicted, and Residual Values
+
+Observed, Predicted, and Residual Values
+
+Observed, Predicted, and Residual Values
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                          Dependent Variable: sq_resid                          
+
+Source                 DF  Sum of Squares   Mean Square   F Value    Pr > F
+---------------  --------  --------------  ------------  --------  --------
+Model                   1    123753.12500  123753.12500      3.91    0.0762
+Error                  10    316608.76042   31660.87604                    
+Corrected Total        11    440361.88542                                  
+
+Root MSE         177.93503    R-Square            0.2810
+Dependent Mean     193.04167    Adj R-Sq            0.2091
+Coeff Var         92.17442
+
+                        Parameter Estimates                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  ----------  --------------  --------  --------
+Intercept         1  -180.08333       195.59369     -0.92    0.3789
+x                 1     1.24375         0.62910      1.98    0.0762
+
+Weights via (11.16b): wᵢ = 1 / σ̂²ᵢ
+
+  X   Y  RESIDUAL  SQ_RESID        VHAT             W
+200  28     -3.75   14.0625   68.666667  0.0145631067
+400  75      5.75   33.0625  317.416667  0.0031504332
+300  37     -13.5    182.25  193.041667  0.0051802288
+400  53    -16.25  264.0625  317.416667  0.0031504332
+200  22     -9.75   95.0625   68.666667  0.0145631067
+300  58       7.5     56.25  193.041667  0.0051802288
+300  40     -10.5    110.25  193.041667  0.0051802288
+400  96     26.75  715.5625  317.416667  0.0031504332
+200  46     14.25  203.0625   68.666667  0.0145631067
+400  52    -17.25  297.5625  317.416667  0.0031504332
+200  30     -1.75    3.0625   68.666667  0.0145631067
+300  69      18.5    342.25  193.041667  0.0051802288
+
+Weights via (11.16b): wᵢ = 1 / σ̂²ᵢ
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: y                              
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      2812.50000   2812.50000     12.14    0.0059
+Error                  10      2316.50000    231.65000                    
+Corrected Total        11      5129.00000                                 
+
+Root MSE          15.22005    R-Square            0.5484
+Dependent Mean      50.50000    Adj R-Sq            0.5032
+Coeff Var         30.13872
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -5.75000        16.73052     -0.34    0.7382
+x                 1   0.18750         0.05381      3.48    0.0059
+
+Weights via (11.16b): wᵢ = 1 / σ̂²ᵢ
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: y                              
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      2812.29244   2812.29244     13.99    0.0038
+Error                  10      2316.70756      1.22966                    
+Corrected Total        11      5129.00000                                 
+
+Root MSE           1.10890    R-Square            0.5831
+Dependent Mean      50.50000    Adj R-Sq            0.5414
+Coeff Var          2.19584
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -6.23322        13.16843     -0.47    0.6461
+x                 1   0.18911         0.05056      3.74    0.0038
+
+Comparison of OLS and WLS Estimates
+
+METHOD   VARIABLE       ESTIMATE         STDERR         TVALUE         PROBT
+OLS     Intercept          -5.75  16.7305235025  -0.3436832087  0.7382011657
+OLS     x                 0.1875   0.0538110119   3.4844169146  0.0058776206
+WLS     Intercept  -6.2332182144   13.168431175  -0.4733455437  0.6461302865
+WLS     x           0.1891107274   0.0505630125   3.7401000886  0.0038459103
+
+Comparison of OLS and WLS Estimates
+
+Comparison of Standard Errors (OLS vs WLS)
+
+
+PROC PRINT: se_change
+-------------------------------------------------------------------------------
+
+  OLS SE(b₀)    WLS SE(b₀)    % Reduction in SE(b₀)    OLS SE(b₁)    WLS SE(b₁)    % Reduction in SE(b₁)
+------------  ------------  -----------------------  ------------  ------------  -----------------------
+     16.7305       13.1684            21.2910552584       0.05381       0.05056             6.0397695596
+
+-------------------------------------------------------------------------------
+
+Comparison of Standard Errors (OLS vs WLS)
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                        Dependent Variable: sq_resid_wls                        
+
+Source                 DF  Sum of Squares   Mean Square   F Value    Pr > F
+---------------  --------  --------------  ------------  --------  --------
+Model                   1    123913.44452  123913.44452      3.98    0.0741
+Error                  10    311467.81492   31146.78149                    
+Corrected Total        11    435381.25945                                  
+
+Root MSE         176.48451    R-Square            0.2846
+Dependent Mean     193.05896    Adj R-Sq            0.2131
+Coeff Var         91.41482
+
+                        Parameter Estimates                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  ----------  --------------  --------  --------
+Intercept         1  -180.30765       193.99921     -0.93    0.3746
+x                 1     1.24456         0.62397      1.99    0.0741
+
+Comparison of Standard Errors (OLS vs WLS)
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: y                              
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      2812.29221   2812.29221     13.99    0.0038
+Error                  10      2316.70779      1.22992                    
+Corrected Total        11      5129.00000                                 
+
+Root MSE           1.10902    R-Square            0.5831
+Dependent Mean      50.50000    Adj R-Sq            0.5414
+Coeff Var          2.19608
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -6.23349        13.16725     -0.47    0.6461
+x                 1   0.18911         0.05057      3.74    0.0038
+
+Comparison of Standard Errors (OLS vs WLS)
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: y                              
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      2812.29244   2812.29244     13.99    0.0038
+Error                  10      2316.70756      1.22966                    
+Corrected Total        11      5129.00000                                 
+
+Root MSE           1.10890    R-Square            0.5831
+Dependent Mean      50.50000    Adj R-Sq            0.5414
+Coeff Var          2.19584
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -6.23322        13.16843     -0.47    0.6461
+x                 1   0.18911         0.05056      3.74    0.0038
+
+Comparison of Standard Errors (OLS vs WLS)
+
+                               The REG Procedure                                
+                                 Model: MODEL1                                  
+                             Dependent Variable: yw                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         0.07635      0.03817     69.81    <.0001
+Error                  10        12.29657      1.22966                    
+Corrected Total        12        12.37292                                 
+
+Root MSE           1.10890    R-Square            0.9332
+Dependent Mean       3.78163    Adj R-Sq            0.9198
+Coeff Var         29.32330
+
+                      Parameter Estimates                       
+
+Variable        DF  Estimate  Standard Error   t Value  Pr > |t|
+--------  --------  --------  --------------  --------  --------
+iw               1  -6.23322        13.16843     -0.47    0.6461
+xw               1   0.18911         0.05056      3.74    0.0038
+
+Compare coefficients: WLS vs OLS on W^{1/2}-transformed system
+
+   METHOD   VARIABLE       ESTIMATE
+WLS        Intercept  -6.2332182144
+WLS        x           0.1891107274
+Trans-OLS  iw         -6.2332182125
+Trans-OLS  xw          0.1891107274
+

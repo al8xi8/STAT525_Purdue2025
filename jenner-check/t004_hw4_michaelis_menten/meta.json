@@ -1,0 +1,8 @@
+{
+    "bundle": "t004_hw4_michaelis_menten",
+    "source_file": "codes/STAT525_HW4_AlexandraChang.sas",
+    "source_blob_sha": "cf7afefa06195cf4fc4e0c882c5f4a3ec27ef684",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW4 verbatim — Michaelis-Menten enzyme kinetics linearization (1/V vs 1/C); regression through the origin for typo cost; brand-preference multiple regression. All DATALINES inline; no edits needed."
+}

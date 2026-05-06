@@ -1,0 +1,16 @@
+{
+    "_captured_at": "2026-05-06T09:17:46Z",
+    "_captured_run_id": "r_019dfc9366627ea09c7daa8fc6fed6fc",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote hayfever_original (36 rows, 4 columns).",
+        "NOTE: Wrote hay12_part_a (33 rows, 4 columns).",
+        "NOTE: Wrote assembly (60 rows, 5 columns).",
+        "NOTE: PROC GLM data=hayfever_original",
+        "NOTE: PROC SGPANEL data=means",
+        "NOTE: PROC RANK data=diag"
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

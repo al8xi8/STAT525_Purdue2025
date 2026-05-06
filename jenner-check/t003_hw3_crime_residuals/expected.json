@@ -1,0 +1,15 @@
+{
+    "_captured_at": "2026-05-06T08:16:40Z",
+    "_captured_run_id": "r_019dfc5bd8547113a2691e6735c7318a",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote crime (84 rows, 2 columns).",
+        "NOTE: PROC REG data=crime",
+        "NOTE: Output dataset resid_data written.",
+        "NOTE: Wrote crime_typo (84 rows, 2 columns).",
+        "NOTE: Wrote sales_transformed (10 rows, 3 columns)."
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

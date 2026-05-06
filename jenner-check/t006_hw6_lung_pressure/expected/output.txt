@@ -1,0 +1,537 @@
+                                                Histograms of X1, X2, X3                                                
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  X1
+
+                                                        Moments
+
+N                                 19    Sum Weights                       19
+Mean                       31.263158    Sum Observations          594.000000
+Std Deviation               8.365552    Variance                   69.982456
+Skewness                    1.678087    Kurtosis                    1.740152
+Uncorrected SS          19830.000000    Corrected SS             1259.684211
+Coeff Variation            26.758499    Std Error Mean              1.919189
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      31.263158  Std Deviation   8.365552
+Median    28.000000  Variance       69.982456
+Mode      28.000000  Range          28.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      24.000000
+1%          24.000000
+5%          24.000000
+10%         24.000000
+25% Q1      26.000000
+50% Median  28.000000
+75% Q3      32.000000
+90%         48.000000
+95%         52.000000
+99%         52.000000
+100% Max    52.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     24.000000  Value     32.000000
+Value     24.000000  Value     34.000000
+Value     25.000000  Value     47.000000
+Value     25.000000  Value     48.000000
+Value     26.000000  Value     52.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.743151469  0.000190533
+Kolmogorov-Smirnov  0.254380026  0.1430075
+Anderson-Darling    2.025618462    0.0001
+Cramer-von Mises    0.36072063  0.091164307
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         16.289773817         0
+Sign                      9.5  0.000003815
+Signed Rank               190  0.00013188
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  X2
+
+                                                        Moments
+
+N                                 19    Sum Weights                       19
+Mean                       46.052632    Sum Observations          875.000000
+Std Deviation               6.720398    Variance                   45.163743
+Skewness                    0.954666    Kurtosis                    0.796097
+Uncorrected SS          41109.000000    Corrected SS              812.947368
+Coeff Variation            14.592863    Std Error Mean              1.541765
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      46.052632  Std Deviation   6.720398
+Median    45.000000  Variance       45.163743
+Mode      46.000000  Range          26.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      35.000000
+1%          35.000000
+5%          35.000000
+10%         39.000000
+25% Q1      42.000000
+50% Median  45.000000
+75% Q3      48.000000
+90%         60.000000
+95%         61.000000
+99%         61.000000
+100% Max    61.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     35.000000  Value     48.000000
+Value     39.000000  Value     51.000000
+Value     40.000000  Value     55.000000
+Value     41.000000  Value     60.000000
+Value     42.000000  Value     61.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.914795449  0.090700858
+Kolmogorov-Smirnov  0.187334857  0.462077906
+Anderson-Darling    0.69468499     0.025
+Cramer-von Mises    0.119019513  0.503366642
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         29.870073436         0
+Sign                      9.5  0.000003815
+Signed Rank               190  0.00013188
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  X3
+
+                                                        Moments
+
+N                                 19    Sum Weights                       19
+Mean                        7.000000    Sum Observations          133.000000
+Std Deviation               1.054093    Variance                    1.111111
+Skewness                    0.000000    Kurtosis                   -0.807353
+Uncorrected SS            951.000000    Corrected SS               20.000000
+Coeff Variation            15.058465    Std Error Mean              0.241825
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      7.000000  Std Deviation  1.054093
+Median    7.000000  Variance       1.111111
+Mode      6.000000  Range          4.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      5.000000
+1%          5.000000
+5%          5.000000
+10%         6.000000
+25% Q1      6.000000
+50% Median  7.000000
+75% Q3      8.000000
+90%         8.000000
+95%         9.000000
+99%         9.000000
+100% Max    9.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     5.000000  Value     8.000000
+Value     6.000000  Value     8.000000
+Value     6.000000  Value     8.000000
+Value     6.000000  Value     8.000000
+Value     6.000000  Value     9.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.908305853  0.068918522
+Kolmogorov-Smirnov  0.197030197  0.399868298
+Anderson-Darling    0.89283561      0.01
+Cramer-von Mises    0.147431966  0.400275544
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         28.946502379         0
+Sign                      9.5  0.000003815
+Signed Rank               190  0.00013188
+
+                                                Histograms of X1, X2, X3                                                
+
+                                                Histograms of X1, X2, X3                                                
+
+                    The CORR Procedure
+                       4 Variables:    Y   X1   X2   X3
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Y               19  43.26316  21.19707  822.00000  12.00000  95.00000
+X1              19  31.26316   8.36555  594.00000  24.00000  52.00000
+X2              19  46.05263   6.72040  875.00000  35.00000  61.00000
+X3              19   7.00000   1.05409  133.00000   5.00000   9.00000
+   Pearson Correlation Coefficients, N = 19
+          Prob > |r| under H0: Rho=0
+                   Y        X1        X2        X3
+--------  --------  --------  --------  --------
+Y          1.00000   0.96329   0.96747   0.54204
+              .       <.0001    <.0001    0.0165
+X1         0.96329   1.00000   0.94346   0.47882
+            <.0001      .       <.0001    0.0381
+X2         0.96747   0.94346   1.00000   0.49408
+            <.0001    <.0001      .       0.0315
+X3         0.54204   0.47882   0.49408   1.00000
+            0.0165    0.0381    0.0315      .
+                                                Histograms of X1, X2, X3                                                
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: Y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      7794.25864   2598.08621    132.81    <.0001
+Error                  15       293.42557     19.56170                    
+Corrected Total        18      8087.68421                                 
+
+Root MSE           4.42286    R-Square            0.9637
+Dependent Mean      43.26316    Adj R-Sq            0.9565
+Coeff Var         10.22316
+
+                                       Parameter Estimates                                       
+
+Variable         DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept         1  -76.51805        12.00080     -6.38    <.0001          .                   .
+x1                1    1.14248         0.37628      3.04    0.0083    0.10968             9.11757
+x2                1    1.58956         0.47297      3.36    0.0043    0.10757             9.29667
+x3                1    1.55147         1.13862      1.36    0.1931    0.75443             1.32551
+
+                                                Histograms of X1, X2, X3                                                
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: Y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   6      7914.16945   1319.02824     91.22    <.0001
+Error                  12       173.51476     14.45956                    
+Corrected Total        18      8087.68421                                 
+
+Root MSE           3.80257    R-Square            0.9785
+Dependent Mean      43.26316    Adj R-Sq            0.9678
+Coeff Var          8.78940
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  42.09240         1.56102     26.96    <.0001
+x1c               1   1.77751         0.54458      3.26    0.0068
+x2c               1   0.78772         0.54160      1.45    0.1715
+x2sq              1   0.31173         0.14210      2.19    0.0487
+x1x2              1  -0.21616         0.11358     -1.90    0.0813
+x1x3              1   1.69740         0.75118      2.26    0.0432
+x2x3              1  -2.44138         0.89300     -2.73    0.0181
+
+                  Selection Method: Adjusted R-Sq Selection                   
+
+Number in Model  R-Square  Adj R-Sq  Variables in Model                       
+---------------  --------  --------  -----------------------------------------
+              6    0.9785    0.9678  x1c x2c x2sq x1x2 x1x3 x2x3              
+              6    0.9785    0.9677  x1c x2c x1sq x2sq x1x3 x2x3              
+              7    0.9792    0.9659  x1c x2c x1sq x2sq x3sq x1x3 x2x3         
+              5    0.9753    0.9657  x1c x1sq x2sq x1x3 x2x3                  
+              7    0.9788    0.9652  x1c x2c x1sq x2sq x1x2 x1x3 x2x3         
+              7    0.9787    0.9651  x1c x2c x2sq x3sq x1x2 x1x3 x2x3         
+              5    0.9748    0.9651  x1c x2sq x1x2 x1x3 x2x3                  
+              6    0.9763    0.9644  x1c x2c x1sq x1x2 x1x3 x2x3              
+              8    0.9792    0.9626  x1c x2c x3c x1sq x2sq x3sq x1x3 x2x3     
+              8    0.9792    0.9625  x1c x2c x1sq x2sq x3sq x1x2 x1x3 x2x3    
+              5    0.9726    0.9621  x1c x1sq x1x2 x1x3 x2x3                  
+              8    0.9788    0.9619  x1c x2c x3c x1sq x2sq x1x2 x1x3 x2x3     
+              4    0.9693    0.9606  x1c x2c x2sq x2x3                        
+              3    0.9668    0.9602  x1c x2c x2x3                             
+              4    0.9687    0.9598  x1c x2c x1x2 x2x3                        
+              4    0.9682    0.9591  x1c x2c x3sq x2x3                        
+              9    0.9793    0.9585  x1c x2c x3c x1sq x2sq x3sq x1x2 x1x3 x2x3
+              3    0.9640    0.9568  x1c x2c x1x3                             
+              3    0.9637    0.9565  x1c x2c x3c                              
+              2    0.9592    0.9541  x1c x2c                                  
+              2    0.9572    0.9518  x1c x2x3                                 
+              2    0.9511    0.9450  x2c x1sq                                 
+              1    0.9360    0.9322  x2c                                      
+              1    0.9279    0.9237  x1c                                      
+              1    0.6745    0.6553  x1sq                                     
+
+                                                Histograms of X1, X2, X3                                                
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: Y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      7758.12760   2586.04253    117.71    <.0001
+Error                  15       329.55661     21.97044                    
+Corrected Total        18      8087.68421                                 
+
+Root MSE           4.68726    R-Square            0.9593
+Dependent Mean      43.26316    Adj R-Sq            0.9511
+Coeff Var         10.83431
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  43.13629         1.74287     24.75    <.0001
+x1c               1   1.12328         0.60200      1.87    0.0817
+x2c               1   1.70935         0.57027      3.00    0.0090
+x1x2              1   0.00252         0.02730      0.09    0.9275
+
+                                                  PRESS Summary Output                                                  
+
+  Obs  _MODEL_  _DEPVAR_    _RMSE_  INTERCEPT      X1C       X2C      X1X2
+    1  MODEL1   Y         4.687264  43.136291  1.12328  1.709355  0.002525
+
+                                                  PRESS Summary Output                                                  
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: Y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      7758.12760   2586.04253    117.71    <.0001
+Error                  15       329.55661     21.97044                    
+Corrected Total        18      8087.68421                                 
+
+Root MSE           4.68726    R-Square            0.9593
+Dependent Mean      43.26316    Adj R-Sq            0.9511
+Coeff Var         10.83431
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  43.13629         1.74287     24.75    <.0001
+x1c               1   1.12328         0.60200      1.87    0.0817
+x2c               1   1.70935         0.57027      3.00    0.0090
+x1x2              1   0.00252         0.02730      0.09    0.9275
+
+                                                  PRESS Summary Output                                                  
+
+                                                  PRESS Summary Output                                                  
+
+                                    Normal Probability Plot and Tests for Residuals                                     
+
+                                                The UNIVARIATE Procedure
+                                              Variable:  resid  (Residual)
+
+                                                        Moments
+
+N                                 19    Sum Weights                       19
+Mean                        0.000000    Sum Observations            0.000001
+Std Deviation               4.278867    Variance                   18.308701
+Skewness                    0.091559    Kurtosis                    1.602573
+Uncorrected SS            329.556614    Corrected SS              329.556614
+Coeff Variation       8129846875.139819    Std Error Mean              0.981639
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean       0.000000  Std Deviation   4.278867
+Median     0.298476  Variance       18.308701
+Mode      -9.979086  Range          19.645707
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      -9.979086
+1%          -9.979086
+5%          -9.979086
+10%         -4.287542
+25% Q1      -2.462892
+50% Median   0.298476
+75% Q3       1.842916
+90%          7.257373
+95%          9.666621
+99%          9.666621
+100% Max     9.666621
+
+         Extreme Observations          
+
+Lowest               Highest           
+--------  ---------  --------  --------
+Value     -9.979086  Value     1.842916
+Value     -4.287542  Value     2.237498
+Value     -4.082434  Value     2.372387
+Value     -3.576854  Value     7.257373
+Value     -2.462892  Value     9.666621
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.949154094  0.382288875
+Kolmogorov-Smirnov  0.184374757  0.482040848
+Anderson-Darling    0.46857875      0.15
+Cramer-von Mises    0.071430303  0.74870005
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         0.000000054  0.99999995
+Sign                      0.5         1
+Signed Rank                -8  0.872118016
+
+
+                    Stem Leaf                     #  Boxplot
+                -10 |0                      1  *
+                 -9 |                       0   
+                 -8 |                       0   
+                 -7 |                       0   
+                 -6 |                       0   
+                 -5 |79                     2   
+                 -4 |4                      1   
+                 -3 |58                     2   
+                 -2 |6                      1  |
+                 -1 |33                     2  +
+                  0 |26                     2  +
+                  1 |4778                   4  |
+                  2 |23                     2   
+                  3 |                       0   
+                  4 |                       0   
+                  5 |                       0   
+                  6 |                       0   
+                  7 |2                      1   
+                  8 |                       0  *
+                  9 |6                      1  *
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Residual
+           |     +-----+
+           |     |     |
+        -4.287542-----*-----7.257373   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                   Normal Probability Plot
+     9.666621+
+              |          *|  (normal probability plot)
+              |          *|  (normal probability plot)
+              |        *  |  (normal probability plot)
+              |       *   |  (normal probability plot)
+              |     *     |  (normal probability plot)
+              |    *      |  (normal probability plot)
+              |  *        |  (normal probability plot)
+              | *         |  (normal probability plot)
+              |*          |  (normal probability plot)
+              |*          |  (normal probability plot)
+     -9.979086+
+
+                                    Normal Probability Plot and Tests for Residuals                                     
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: Y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      7758.12760   2586.04253    117.71    <.0001
+Error                  15       329.55661     21.97044                    
+Corrected Total        18      8087.68421                                 
+
+Root MSE           4.68726    R-Square            0.9593
+Dependent Mean      43.26316    Adj R-Sq            0.9511
+Coeff Var         10.83431
+
+                                      Parameter Estimates                                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  --------  --------------  --------  --------  ---------  ------------------
+Intercept         1  43.13629         1.74287     24.75    <.0001          .                   .
+x1c               1   1.12328         0.60200      1.87    0.0817    0.04813            20.77850
+x2c               1   1.70935         0.57027      3.00    0.0090    0.08310            12.03314
+x1x2              1   0.00252         0.02730      0.09    0.9275    0.21891             4.56800
+

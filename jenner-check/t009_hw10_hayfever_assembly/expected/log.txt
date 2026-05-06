@@ -1,0 +1,180 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LS changed to 80.
+NOTE: Option LS changed to 80.
+NOTE: DATA hayfever_original
+
+NOTE: Processing inline DATALINES (36 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote hayfever_original (36 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=hayfever_original
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: PROC GLM data=hayfever_original
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: ODS OUTPUT: OVERALLANOVA -> anova
+NOTE: PROC GLM data=hayfever_original
+
+NOTE: ODS OUTPUT: OverallANOVA written to 'anova'.
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: ODS OUTPUT: All output destinations closed.
+NOTE: DATA _null_
+
+
+NOTE: Read 4 rows from anova.
+NOTE: Wrote _null_ (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset cellmeans has 9 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA scheffe
+
+
+NOTE: Read 9 rows from cellmeans.
+NOTE: Wrote scheffe (1 rows, 39 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=scheffe
+
+NOTE: PROC PRINT completed: 1 observations printed, 18 variables
+NOTE: DATA hayfever_full
+
+NOTE: Processing inline DATALINES (36 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote hayfever_full (36 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=hayfever_full
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: PROC GLM data=hayfever_full
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: DATA hay12_part_a
+
+NOTE: Processing inline DATALINES (33 lines)
+
+NOTE: Read 33 rows from DATALINES.
+NOTE: Wrote hay12_part_a (33 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset cellmeans_2312 has 9 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA contrasts_2312
+
+
+NOTE: Read 9 rows from cellmeans_2312.
+NOTE: Wrote contrasts_2312 (1 rows, 23 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=contrasts_2312
+
+NOTE: PROC PRINT completed: 1 observations printed, 6 variables
+NOTE: DATA hay12_part_b
+
+NOTE: Processing inline DATALINES (33 lines)
+
+NOTE: Read 33 rows from DATALINES.
+NOTE: Wrote hay12_part_b (33 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=hay12_part_b
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: DATA assembly
+
+NOTE: Processing inline DATALINES (60 lines)
+
+NOTE: Read 60 rows from DATALINES.
+NOTE: Wrote assembly (60 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=assembly
+
+NOTE: OUTPUT dataset written to: ./work/diag.avro
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
+NOTE: PROC PRINT data=diag
+
+NOTE: PROC PRINT completed: 5 observations printed, 6 variables
+NOTE: PROC SGPLOT data=diag
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC RANK data=diag out=Some("normres")
+
+
+NOTE: Read 60 rows from ./work/diag.avro.
+NOTE: Wrote ./work/normres.avro (60 rows, 8 columns).
+NOTE: PROC RANK elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CORR data=normres
+
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: PROC UNIVARIATE
+NOTE: PROC MEANS
+NOTE: Output dataset means has 12 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC SGPANEL data=means
+
+NOTE: PROC SGPANEL output written to: ./ods_output/sgpanel.svg
+NOTE: PROC GLM data=assembly
+
+NOTE: Warning messages:
+NOTE: 1: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: 2: closing unused connection 3 (stdin) 
+NOTE: ODS plot written: glm_diagnostics.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.

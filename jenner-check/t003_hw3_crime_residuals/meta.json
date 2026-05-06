@@ -1,0 +1,8 @@
+{
+    "bundle": "t003_hw3_crime_residuals",
+    "source_file": "codes/STAT525_HW3_AlexandraChang.sas",
+    "source_blob_sha": "52127ef3efc8079b838d1fcdcc6d356484c42103",
+    "source_commit": "d48c51a82ce4b704972f574e9438cbd4b7d09928",
+    "tier": "real_data",
+    "notes": "HW3 — crime-rate vs. HS-diploma regression with residual diagnostics, typo sensitivity (Problem 5), and sqrt-transformed sales-growth regression (Problem 6c). DATALINES inline; PROC TRANSREG Box-Cox block omitted from this bundle."
+}
